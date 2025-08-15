@@ -58,7 +58,7 @@ function checkCashRegister(price, cash, cid) {
     }
   }
 
-  if (change > 0) {
+  if (Math.abs(change) > 0) {
     return {status: "INSUFFICIENT_FUNDS", change: []}
   }
 

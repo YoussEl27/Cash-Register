@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cash Register</h1>
+    <div id="change">
+        <p id="statusText"></p>
+        <p id="changeResult"></p>
+    </div>
+    <div id="inputContainer">
+        <label for="cashNumber">Enter Cash from Customer :</label><br>
+        <input type="number" id="cashNumber" name="cashNumber"><br>
+        <button class="check-btn" id="purchase-btn">Purchase</button>
+    </div>
+    <div class="Container">
+        <div class="top-display-screen-container">
+            <p class="price-screen" id="price-screen"><span>Total: </span><span id="totale">19.25</span></p>
+            <div class="connector"></div>
+        </div>
+        <div class="top-register">
+            <div class="btn-container">
+                <button class="btn" ></button>
+                <button class="btn" ></button>
+                <button class="btn"></button>
+                <br>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <br>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+            </div>
+            <div id="cash-drawer-display" class="cash-drawer-display">
+                <p>
+                    <strong>Change in drawer:</strong>
+                </p>
+                <p><span>Pennies: </span><span id="Pennies">$0.97</span></p>
+                <p><span>Nickels: </span><span id="Nickels">$2.05</span></p>
+                <p><span>Dimes: </span><span id="Dimes">$2.9</span></p>
+                <p><span>Quarters: </span><span id="Quarters">3.75</span></p>
+                <p><span>Ones: </span><span id="Ones">$89</span></p>
+                <p><span>Fives: </span><span id="Fives">$50</span></p>
+                <p><span>Tens: </span><span id="Tens">$20</span></p>
+                <p><span>Twenties: </span><span id="Twenties">$60</span></p>
+                <p><span>Hundreds: </span><span id="Hundreds">$100</span></p>
+            </div>
+        </div>
+        <div class="bottom-register">
+            <div class="circle"></div>
+        </div>
+    </div>
+    <script src="CashRegister.js"></script>
+</body>
+</html>

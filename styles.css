@@ -1,0 +1,131 @@
+body {
+    font-family:  'Segoe UI', Roboto, -apple-system, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 10, 34);
+    color: white;
+}
+h1 {
+    font-size: 50px;
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#inputContainer label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label {
+    font-size: 18px;
+}
+
+#cashNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.check-btn {
+    background-color: rgb(254, 172, 50);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    color: rgb(10, 10, 35);
+    font-size: 18px;
+    border-bottom-color: rgb(254, 172, 50);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.top-display-screen-container p{
+    color: white;
+    background-color: black;
+    border: 10px solid rgba(77, 134, 197, 0.93);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    max-width: 50%;
+}
+.connector {
+    background-color: rgba(77, 134, 197, 0.93);
+    height: 30px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 40px;
+}
+.top-register {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: rgba(77, 134, 197, 0.93);
+    width: 400px;
+    padding-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.btn-container button{
+    background-color: black;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.btn-container {
+    margin-left: 20px;
+}
+.cash-drawer-display {
+    margin: 0 0 10px 20px;
+    background-color: white;
+    color: black;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+}
+.cash-drawer-display p strong{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.cash-drawer-display p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+.bottom-register {
+    width: 300px;
+    background-color: rgba(77, 134, 197, 0.93);
+    padding: 20px 50px 20px 50px;
+    margin-top: 10px;
+}
+.circle {
+    border-radius: 50px;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin-left: 130px;
+}
+#change {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+#change p {
+    text-align: center;
+}
+#changeResult {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+

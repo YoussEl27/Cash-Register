@@ -59,7 +59,7 @@ function checkCashRegister(price, cash, cid) {
   }
 
   if (Math.abs(change) > 0) {
-    return {status: "INSUFFICIENT_FUNDS", change: []}
+    return {status: "Customer has not enough money", change: []}
   }
 
   return {status: "OPEN", change: changeArr}
@@ -104,6 +104,6 @@ purchaseButton.addEventListener("click", () => {
         updateCashDrawerDisplay(cid)
     }
     else {
-        alert("ungültige Eingabe");
+        alert("Please enter a valid number");
     }
 });

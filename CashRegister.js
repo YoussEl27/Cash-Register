@@ -54,6 +54,7 @@ function checkCashRegister(price, cash, cid) {
 
     if (amountToReturn > 0) {
       changeArr.push([coinName, amountToReturn]);
+      cid[i][1] = coinAmount;
     }
   }
 
